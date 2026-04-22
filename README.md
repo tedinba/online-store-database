@@ -70,6 +70,8 @@ This file inserts realistic sample records across all tables, enabling:
 
 ## 📈 Example Queries
 
+These queries demonstrate how the database can be used to extract business insights from transactional data.
+
 -- Total revenue
 SELECT SUM(quantity * unit_price) AS total_revenue
 FROM order_detail;
@@ -93,5 +95,10 @@ These queries simulate real-world business scenarios such as revenue analysis, c
 
 - Add triggers to automatically update product stock after orders.  
 - Implement views for reporting.  
-- Extend schema with categories and payments. 
+- Extend schema with categories and payments.
+
+## 🎯 Purpose
+
+This project was developed to practice relational database design and demonstrate SQL skills in a real-world scenario.
+
 
